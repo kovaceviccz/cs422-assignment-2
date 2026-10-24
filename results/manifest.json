@@ -1,0 +1,510 @@
+{
+  "started_utc": "2026-10-21T06:59:53.508122+00:00",
+  "kernel": "6.17.0-35-generic",
+  "server_list": "listed_iperf3_servers.json",
+  "requested_destinations": 10,
+  "duration_seconds": 15,
+  "interval_seconds": 0.5,
+  "repetitions": 2,
+  "max_candidate_attempts": 50,
+  "algorithm_orders": [
+    {
+      "destination": "66.35.27.207",
+      "runs": [
+        {
+          "run_id": "d01-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T06:59:54.169217+00:00"
+        },
+        {
+          "run_id": "d01-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:00:09.951880+00:00"
+        },
+        {
+          "run_id": "d01-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:00:25.715252+00:00"
+        },
+        {
+          "run_id": "d01-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:00:41.511848+00:00"
+        },
+        {
+          "run_id": "d01-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:00:57.326849+00:00"
+        },
+        {
+          "run_id": "d01-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:01:13.107221+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "204.155.243.172",
+      "runs": [
+        {
+          "run_id": "d02-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:01:28.866885+00:00"
+        },
+        {
+          "run_id": "d02-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:01:44.633797+00:00"
+        },
+        {
+          "run_id": "d02-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:02:00.326312+00:00"
+        },
+        {
+          "run_id": "d02-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:02:16.160086+00:00"
+        },
+        {
+          "run_id": "d02-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:02:31.923729+00:00"
+        },
+        {
+          "run_id": "d02-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:02:47.605264+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "114.230.93.99",
+      "runs": [
+        {
+          "run_id": "d05-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:03:37.945223+00:00"
+        },
+        {
+          "run_id": "d05-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:03:57.686625+00:00"
+        },
+        {
+          "run_id": "d05-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:04:17.215013+00:00"
+        },
+        {
+          "run_id": "d05-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:04:37.096245+00:00"
+        },
+        {
+          "run_id": "d05-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:04:55.201339+00:00"
+        },
+        {
+          "run_id": "d05-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:05:14.766138+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "iperf3-vie-at.alwyzon.net",
+      "runs": [
+        {
+          "run_id": "d08-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:06:11.695770+00:00"
+        },
+        {
+          "run_id": "d08-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:06:28.311147+00:00"
+        },
+        {
+          "run_id": "d08-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:06:44.878039+00:00"
+        },
+        {
+          "run_id": "d08-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:07:01.360767+00:00"
+        },
+        {
+          "run_id": "d08-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:07:17.902029+00:00"
+        },
+        {
+          "run_id": "d08-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:07:34.221189+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "148.230.45.213",
+      "runs": [
+        {
+          "run_id": "d10-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:08:07.465177+00:00"
+        },
+        {
+          "run_id": "d10-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:08:23.896183+00:00"
+        },
+        {
+          "run_id": "d10-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:08:40.350015+00:00"
+        },
+        {
+          "run_id": "d10-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:08:56.909223+00:00"
+        },
+        {
+          "run_id": "d10-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:09:13.691341+00:00"
+        },
+        {
+          "run_id": "d10-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:09:30.036180+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "yyc-speedtest.xplore.ca",
+      "runs": [
+        {
+          "run_id": "d13-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:10:25.444177+00:00"
+        },
+        {
+          "run_id": "d13-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:10:41.505348+00:00"
+        },
+        {
+          "run_id": "d13-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:10:57.523221+00:00"
+        },
+        {
+          "run_id": "d13-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:11:13.581056+00:00"
+        },
+        {
+          "run_id": "d13-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:11:29.556210+00:00"
+        },
+        {
+          "run_id": "d13-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:11:45.591198+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "dal.speedtest.clouvider.net",
+      "runs": [
+        {
+          "run_id": "d15-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:12:18.948708+00:00"
+        },
+        {
+          "run_id": "d15-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:12:34.844195+00:00"
+        },
+        {
+          "run_id": "d15-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:12:50.674183+00:00"
+        },
+        {
+          "run_id": "d15-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:13:06.538183+00:00"
+        },
+        {
+          "run_id": "d15-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:13:22.423202+00:00"
+        },
+        {
+          "run_id": "d15-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:13:38.371202+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "speedtest.hiper.dk",
+      "runs": [
+        {
+          "run_id": "d17-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:14:11.648195+00:00"
+        },
+        {
+          "run_id": "d17-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:14:28.541917+00:00"
+        },
+        {
+          "run_id": "d17-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:14:45.074174+00:00"
+        },
+        {
+          "run_id": "d17-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:15:01.618778+00:00"
+        },
+        {
+          "run_id": "d17-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:15:18.062164+00:00"
+        },
+        {
+          "run_id": "d17-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:15:34.476821+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "23.249.54.234",
+      "runs": [
+        {
+          "run_id": "d18-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:15:50.441219+00:00"
+        },
+        {
+          "run_id": "d18-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:16:06.331928+00:00"
+        },
+        {
+          "run_id": "d18-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:16:22.241047+00:00"
+        },
+        {
+          "run_id": "d18-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:16:38.048974+00:00"
+        },
+        {
+          "run_id": "d18-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:16:53.871244+00:00"
+        },
+        {
+          "run_id": "d18-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:17:09.711180+00:00"
+        }
+      ]
+    },
+    {
+      "destination": "96.45.44.87",
+      "runs": [
+        {
+          "run_id": "d19-r1-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:17:26.515234+00:00"
+        },
+        {
+          "run_id": "d19-r1-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:17:43.511133+00:00"
+        },
+        {
+          "run_id": "d19-r1-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:18:00.597215+00:00"
+        },
+        {
+          "run_id": "d19-r2-reno",
+          "algorithm": "reno",
+          "started_utc": "2026-10-21T07:18:17.510246+00:00"
+        },
+        {
+          "run_id": "d19-r2-bbr",
+          "algorithm": "bbr",
+          "started_utc": "2026-10-21T07:18:34.360998+00:00"
+        },
+        {
+          "run_id": "d19-r2-cubic",
+          "algorithm": "cubic",
+          "started_utc": "2026-10-21T07:18:51.302530+00:00"
+        }
+      ]
+    }
+  ],
+  "complete_destinations": [
+    {
+      "host": "66.35.27.207",
+      "port": 30008,
+      "site": "Dallas",
+      "country": "US"
+    },
+    {
+      "host": "204.155.243.172",
+      "port": 30005,
+      "site": "Toronto",
+      "country": "CA"
+    },
+    {
+      "host": "114.230.93.99",
+      "port": 5218,
+      "site": "Nanjing",
+      "country": "CN"
+    },
+    {
+      "host": "iperf3-vie-at.alwyzon.net",
+      "port": 5205,
+      "site": "Vienna",
+      "country": "AT"
+    },
+    {
+      "host": "148.230.45.213",
+      "port": 30009,
+      "site": "Madrid",
+      "country": "ES"
+    },
+    {
+      "host": "yyc-speedtest.xplore.ca",
+      "port": 8084,
+      "site": "Woodstock",
+      "country": "CA"
+    },
+    {
+      "host": "dal.speedtest.clouvider.net",
+      "port": 5203,
+      "site": "Dallas",
+      "country": "US"
+    },
+    {
+      "host": "speedtest.hiper.dk",
+      "port": 5203,
+      "site": "Copenhagen",
+      "country": "DK"
+    },
+    {
+      "host": "23.249.54.234",
+      "port": 30005,
+      "site": "Miami",
+      "country": "US"
+    },
+    {
+      "host": "96.45.44.87",
+      "port": 30005,
+      "site": "Sydney",
+      "country": "AU"
+    }
+  ],
+  "failures": [
+    {
+      "candidate": {
+        "host": "156.146.52.1",
+        "port": 5201,
+        "site": "Istanbul",
+        "country": "TR"
+      },
+      "reason": "[Errno 111] Connection refused"
+    },
+    {
+      "candidate": {
+        "host": "156.146.40.65",
+        "port": 5201,
+        "site": "Bratislava",
+        "country": "SK"
+      },
+      "reason": "[Errno 111] Connection refused"
+    },
+    {
+      "candidate": {
+        "host": "185.76.9.135",
+        "port": 5201,
+        "site": "Stockholm",
+        "country": "SE"
+      },
+      "reason": "[Errno 111] Connection refused"
+    },
+    {
+      "candidate": {
+        "host": "coverage1.mobicom.mn",
+        "port": 5202,
+        "site": "Ulaanbaatar",
+        "country": "MN"
+      },
+      "reason": "timed out"
+    },
+    {
+      "candidate": {
+        "host": "37.19.218.65",
+        "port": 5201,
+        "site": "Kyiv",
+        "country": "UA"
+      },
+      "reason": "[Errno 111] Connection refused"
+    },
+    {
+      "candidate": {
+        "host": "154.81.51.4",
+        "port": 5201,
+        "site": "Port Moresby",
+        "country": "PG"
+      },
+      "reason": "[Errno 111] Connection refused"
+    },
+    {
+      "candidate": {
+        "host": "iperf.pendc.com",
+        "port": 5208,
+        "site": "Bursa",
+        "country": "TR"
+      },
+      "reason": "timed out"
+    },
+    {
+      "candidate": {
+        "host": "102.214.66.19",
+        "port": 5201,
+        "site": "Accra",
+        "country": "GH"
+      },
+      "reason": "[Errno 111] Connection refused"
+    },
+    {
+      "candidate": {
+        "host": "185.246.208.67",
+        "port": 5201,
+        "site": "Warsaw",
+        "country": "PL"
+      },
+      "reason": "[Errno 111] Connection refused"
+    }
+  ],
+  "attempted_candidates": 19,
+  "successful_destinations": 10,
+  "shortfall": 0
+}

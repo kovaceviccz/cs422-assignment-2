@@ -1,0 +1,982 @@
+{
+  "manifest": {
+    "started_utc": "2026-10-21T06:59:53.508122+00:00",
+    "kernel": "6.17.0-35-generic",
+    "server_list": "listed_iperf3_servers.json",
+    "requested_destinations": 10,
+    "duration_seconds": 15,
+    "interval_seconds": 0.5,
+    "repetitions": 2,
+    "max_candidate_attempts": 50,
+    "algorithm_orders": [
+      {
+        "destination": "66.35.27.207",
+        "runs": [
+          {
+            "run_id": "d01-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T06:59:54.169217+00:00"
+          },
+          {
+            "run_id": "d01-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:00:09.951880+00:00"
+          },
+          {
+            "run_id": "d01-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:00:25.715252+00:00"
+          },
+          {
+            "run_id": "d01-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:00:41.511848+00:00"
+          },
+          {
+            "run_id": "d01-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:00:57.326849+00:00"
+          },
+          {
+            "run_id": "d01-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:01:13.107221+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "204.155.243.172",
+        "runs": [
+          {
+            "run_id": "d02-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:01:28.866885+00:00"
+          },
+          {
+            "run_id": "d02-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:01:44.633797+00:00"
+          },
+          {
+            "run_id": "d02-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:02:00.326312+00:00"
+          },
+          {
+            "run_id": "d02-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:02:16.160086+00:00"
+          },
+          {
+            "run_id": "d02-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:02:31.923729+00:00"
+          },
+          {
+            "run_id": "d02-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:02:47.605264+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "114.230.93.99",
+        "runs": [
+          {
+            "run_id": "d05-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:03:37.945223+00:00"
+          },
+          {
+            "run_id": "d05-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:03:57.686625+00:00"
+          },
+          {
+            "run_id": "d05-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:04:17.215013+00:00"
+          },
+          {
+            "run_id": "d05-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:04:37.096245+00:00"
+          },
+          {
+            "run_id": "d05-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:04:55.201339+00:00"
+          },
+          {
+            "run_id": "d05-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:05:14.766138+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "iperf3-vie-at.alwyzon.net",
+        "runs": [
+          {
+            "run_id": "d08-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:06:11.695770+00:00"
+          },
+          {
+            "run_id": "d08-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:06:28.311147+00:00"
+          },
+          {
+            "run_id": "d08-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:06:44.878039+00:00"
+          },
+          {
+            "run_id": "d08-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:07:01.360767+00:00"
+          },
+          {
+            "run_id": "d08-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:07:17.902029+00:00"
+          },
+          {
+            "run_id": "d08-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:07:34.221189+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "148.230.45.213",
+        "runs": [
+          {
+            "run_id": "d10-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:08:07.465177+00:00"
+          },
+          {
+            "run_id": "d10-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:08:23.896183+00:00"
+          },
+          {
+            "run_id": "d10-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:08:40.350015+00:00"
+          },
+          {
+            "run_id": "d10-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:08:56.909223+00:00"
+          },
+          {
+            "run_id": "d10-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:09:13.691341+00:00"
+          },
+          {
+            "run_id": "d10-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:09:30.036180+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "yyc-speedtest.xplore.ca",
+        "runs": [
+          {
+            "run_id": "d13-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:10:25.444177+00:00"
+          },
+          {
+            "run_id": "d13-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:10:41.505348+00:00"
+          },
+          {
+            "run_id": "d13-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:10:57.523221+00:00"
+          },
+          {
+            "run_id": "d13-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:11:13.581056+00:00"
+          },
+          {
+            "run_id": "d13-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:11:29.556210+00:00"
+          },
+          {
+            "run_id": "d13-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:11:45.591198+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "dal.speedtest.clouvider.net",
+        "runs": [
+          {
+            "run_id": "d15-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:12:18.948708+00:00"
+          },
+          {
+            "run_id": "d15-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:12:34.844195+00:00"
+          },
+          {
+            "run_id": "d15-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:12:50.674183+00:00"
+          },
+          {
+            "run_id": "d15-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:13:06.538183+00:00"
+          },
+          {
+            "run_id": "d15-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:13:22.423202+00:00"
+          },
+          {
+            "run_id": "d15-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:13:38.371202+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "speedtest.hiper.dk",
+        "runs": [
+          {
+            "run_id": "d17-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:14:11.648195+00:00"
+          },
+          {
+            "run_id": "d17-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:14:28.541917+00:00"
+          },
+          {
+            "run_id": "d17-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:14:45.074174+00:00"
+          },
+          {
+            "run_id": "d17-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:15:01.618778+00:00"
+          },
+          {
+            "run_id": "d17-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:15:18.062164+00:00"
+          },
+          {
+            "run_id": "d17-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:15:34.476821+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "23.249.54.234",
+        "runs": [
+          {
+            "run_id": "d18-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:15:50.441219+00:00"
+          },
+          {
+            "run_id": "d18-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:16:06.331928+00:00"
+          },
+          {
+            "run_id": "d18-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:16:22.241047+00:00"
+          },
+          {
+            "run_id": "d18-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:16:38.048974+00:00"
+          },
+          {
+            "run_id": "d18-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:16:53.871244+00:00"
+          },
+          {
+            "run_id": "d18-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:17:09.711180+00:00"
+          }
+        ]
+      },
+      {
+        "destination": "96.45.44.87",
+        "runs": [
+          {
+            "run_id": "d19-r1-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:17:26.515234+00:00"
+          },
+          {
+            "run_id": "d19-r1-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:17:43.511133+00:00"
+          },
+          {
+            "run_id": "d19-r1-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:18:00.597215+00:00"
+          },
+          {
+            "run_id": "d19-r2-reno",
+            "algorithm": "reno",
+            "started_utc": "2026-10-21T07:18:17.510246+00:00"
+          },
+          {
+            "run_id": "d19-r2-bbr",
+            "algorithm": "bbr",
+            "started_utc": "2026-10-21T07:18:34.360998+00:00"
+          },
+          {
+            "run_id": "d19-r2-cubic",
+            "algorithm": "cubic",
+            "started_utc": "2026-10-21T07:18:51.302530+00:00"
+          }
+        ]
+      }
+    ],
+    "complete_destinations": [
+      {
+        "host": "66.35.27.207",
+        "port": 30008,
+        "site": "Dallas",
+        "country": "US"
+      },
+      {
+        "host": "204.155.243.172",
+        "port": 30005,
+        "site": "Toronto",
+        "country": "CA"
+      },
+      {
+        "host": "114.230.93.99",
+        "port": 5218,
+        "site": "Nanjing",
+        "country": "CN"
+      },
+      {
+        "host": "iperf3-vie-at.alwyzon.net",
+        "port": 5205,
+        "site": "Vienna",
+        "country": "AT"
+      },
+      {
+        "host": "148.230.45.213",
+        "port": 30009,
+        "site": "Madrid",
+        "country": "ES"
+      },
+      {
+        "host": "yyc-speedtest.xplore.ca",
+        "port": 8084,
+        "site": "Woodstock",
+        "country": "CA"
+      },
+      {
+        "host": "dal.speedtest.clouvider.net",
+        "port": 5203,
+        "site": "Dallas",
+        "country": "US"
+      },
+      {
+        "host": "speedtest.hiper.dk",
+        "port": 5203,
+        "site": "Copenhagen",
+        "country": "DK"
+      },
+      {
+        "host": "23.249.54.234",
+        "port": 30005,
+        "site": "Miami",
+        "country": "US"
+      },
+      {
+        "host": "96.45.44.87",
+        "port": 30005,
+        "site": "Sydney",
+        "country": "AU"
+      }
+    ],
+    "failures": [
+      {
+        "candidate": {
+          "host": "156.146.52.1",
+          "port": 5201,
+          "site": "Istanbul",
+          "country": "TR"
+        },
+        "reason": "[Errno 111] Connection refused"
+      },
+      {
+        "candidate": {
+          "host": "156.146.40.65",
+          "port": 5201,
+          "site": "Bratislava",
+          "country": "SK"
+        },
+        "reason": "[Errno 111] Connection refused"
+      },
+      {
+        "candidate": {
+          "host": "185.76.9.135",
+          "port": 5201,
+          "site": "Stockholm",
+          "country": "SE"
+        },
+        "reason": "[Errno 111] Connection refused"
+      },
+      {
+        "candidate": {
+          "host": "coverage1.mobicom.mn",
+          "port": 5202,
+          "site": "Ulaanbaatar",
+          "country": "MN"
+        },
+        "reason": "timed out"
+      },
+      {
+        "candidate": {
+          "host": "37.19.218.65",
+          "port": 5201,
+          "site": "Kyiv",
+          "country": "UA"
+        },
+        "reason": "[Errno 111] Connection refused"
+      },
+      {
+        "candidate": {
+          "host": "154.81.51.4",
+          "port": 5201,
+          "site": "Port Moresby",
+          "country": "PG"
+        },
+        "reason": "[Errno 111] Connection refused"
+      },
+      {
+        "candidate": {
+          "host": "iperf.pendc.com",
+          "port": 5208,
+          "site": "Bursa",
+          "country": "TR"
+        },
+        "reason": "timed out"
+      },
+      {
+        "candidate": {
+          "host": "102.214.66.19",
+          "port": 5201,
+          "site": "Accra",
+          "country": "GH"
+        },
+        "reason": "[Errno 111] Connection refused"
+      },
+      {
+        "candidate": {
+          "host": "185.246.208.67",
+          "port": 5201,
+          "site": "Warsaw",
+          "country": "PL"
+        },
+        "reason": "[Errno 111] Connection refused"
+      }
+    ],
+    "attempted_candidates": 19,
+    "successful_destinations": 10,
+    "shortfall": 0
+  },
+  "summary": [
+    {
+      "destination": "66.35.27.207",
+      "port": 30008,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 17.791255988573198,
+      "goodput_median_mbps": 87.05074585278328,
+      "goodput_mean_mbps": 85.57680996942929,
+      "goodput_p95_mbps": 113.59773212656934,
+      "rtt_median_ms": 52.8445,
+      "retransmissions": 0
+    },
+    {
+      "destination": "66.35.27.207",
+      "port": 30008,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 11.777531032740729,
+      "goodput_median_mbps": 94.6652459546547,
+      "goodput_mean_mbps": 91.4997439513019,
+      "goodput_p95_mbps": 116.40522324335988,
+      "rtt_median_ms": 59.5165,
+      "retransmissions": 4
+    },
+    {
+      "destination": "66.35.27.207",
+      "port": 30008,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 50.83990109799111,
+      "goodput_median_mbps": 85.30871370102355,
+      "goodput_mean_mbps": 84.71797046715331,
+      "goodput_p95_mbps": 102.13984952439847,
+      "rtt_median_ms": 43.221000000000004,
+      "retransmissions": 0
+    },
+    {
+      "destination": "204.155.243.172",
+      "port": 30005,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 49.17886108901642,
+      "goodput_median_mbps": 89.79764721172819,
+      "goodput_mean_mbps": 88.13787073036995,
+      "goodput_p95_mbps": 103.69730764815847,
+      "rtt_median_ms": 40.9905,
+      "retransmissions": 7
+    },
+    {
+      "destination": "204.155.243.172",
+      "port": 30005,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 39.50371975909104,
+      "goodput_median_mbps": 83.75508773336175,
+      "goodput_mean_mbps": 83.67118654508712,
+      "goodput_p95_mbps": 111.6532434324374,
+      "rtt_median_ms": 55.429,
+      "retransmissions": 4
+    },
+    {
+      "destination": "204.155.243.172",
+      "port": 30005,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 38.36586117265391,
+      "goodput_median_mbps": 86.95972183051907,
+      "goodput_mean_mbps": 85.43374569861744,
+      "goodput_p95_mbps": 115.57554822619628,
+      "rtt_median_ms": 32.507000000000005,
+      "retransmissions": 15
+    },
+    {
+      "destination": "114.230.93.99",
+      "port": 5218,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 62,
+      "goodput_min_mbps": 0.0,
+      "goodput_median_mbps": 0.13900646064375505,
+      "goodput_mean_mbps": 0.16411365903652103,
+      "goodput_p95_mbps": 0.4341113428872362,
+      "rtt_median_ms": 220.1325,
+      "retransmissions": 61
+    },
+    {
+      "destination": "114.230.93.99",
+      "port": 5218,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 61,
+      "goodput_min_mbps": 0.0,
+      "goodput_median_mbps": 0.0926719047327723,
+      "goodput_mean_mbps": 0.11374746493391079,
+      "goodput_p95_mbps": 0.3010592639236333,
+      "rtt_median_ms": 241.865,
+      "retransmissions": 69
+    },
+    {
+      "destination": "114.230.93.99",
+      "port": 5218,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 61,
+      "goodput_min_mbps": 0.0,
+      "goodput_median_mbps": 0.5095690215218496,
+      "goodput_mean_mbps": 2.478077970444319,
+      "goodput_p95_mbps": 8.572712596870563,
+      "rtt_median_ms": 216.266,
+      "retransmissions": 1523
+    },
+    {
+      "destination": "iperf3-vie-at.alwyzon.net",
+      "port": 5205,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 0.684618881825517,
+      "goodput_median_mbps": 84.62298825406468,
+      "goodput_mean_mbps": 74.85707798982902,
+      "goodput_p95_mbps": 113.71355999313775,
+      "rtt_median_ms": 126.10499999999999,
+      "retransmissions": 0
+    },
+    {
+      "destination": "iperf3-vie-at.alwyzon.net",
+      "port": 5205,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 3.423346995411581,
+      "goodput_median_mbps": 84.37952770239725,
+      "goodput_mean_mbps": 80.70673920209298,
+      "goodput_p95_mbps": 104.85010926017127,
+      "rtt_median_ms": 150.1945,
+      "retransmissions": 0
+    },
+    {
+      "destination": "iperf3-vie-at.alwyzon.net",
+      "port": 5205,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 1.3007934099069316,
+      "goodput_median_mbps": 87.86902159468423,
+      "goodput_mean_mbps": 80.82274784193581,
+      "goodput_p95_mbps": 103.89174169722494,
+      "rtt_median_ms": 123.594,
+      "retransmissions": 13
+    },
+    {
+      "destination": "148.230.45.213",
+      "port": 30009,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 0.6943741840585704,
+      "goodput_median_mbps": 82.69597103090048,
+      "goodput_mean_mbps": 78.02018928665451,
+      "goodput_p95_mbps": 130.35555553760264,
+      "rtt_median_ms": 126.76249999999999,
+      "retransmissions": 0
+    },
+    {
+      "destination": "148.230.45.213",
+      "port": 30009,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 1.601900586983996,
+      "goodput_median_mbps": 58.557014689960816,
+      "goodput_mean_mbps": 61.03227020662304,
+      "goodput_p95_mbps": 92.87374138093877,
+      "rtt_median_ms": 159.08249999999998,
+      "retransmissions": 0
+    },
+    {
+      "destination": "148.230.45.213",
+      "port": 30009,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 61,
+      "goodput_min_mbps": 0.9493949270598894,
+      "goodput_median_mbps": 62.50588519167792,
+      "goodput_mean_mbps": 60.770875920859915,
+      "goodput_p95_mbps": 90.58514601942974,
+      "rtt_median_ms": 129.305,
+      "retransmissions": 2
+    },
+    {
+      "destination": "yyc-speedtest.xplore.ca",
+      "port": 8084,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 48.63367797027196,
+      "goodput_median_mbps": 127.8694219144273,
+      "goodput_mean_mbps": 124.52872703212796,
+      "goodput_p95_mbps": 140.74532745181006,
+      "rtt_median_ms": 61.852,
+      "retransmissions": 0
+    },
+    {
+      "destination": "yyc-speedtest.xplore.ca",
+      "port": 8084,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 59.17423725210381,
+      "goodput_median_mbps": 128.19091261785914,
+      "goodput_mean_mbps": 125.04581023948117,
+      "goodput_p95_mbps": 137.76605265847545,
+      "rtt_median_ms": 79.505,
+      "retransmissions": 1
+    },
+    {
+      "destination": "yyc-speedtest.xplore.ca",
+      "port": 8084,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 41.74601748031606,
+      "goodput_median_mbps": 117.04516065638754,
+      "goodput_mean_mbps": 112.98791640498911,
+      "goodput_p95_mbps": 133.19441456642457,
+      "rtt_median_ms": 52.923,
+      "retransmissions": 0
+    },
+    {
+      "destination": "dal.speedtest.clouvider.net",
+      "port": 5203,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 71.5699035646931,
+      "goodput_median_mbps": 122.96897938936738,
+      "goodput_mean_mbps": 120.55921960567045,
+      "goodput_p95_mbps": 139.50834563607395,
+      "rtt_median_ms": 49.549499999999995,
+      "retransmissions": 2
+    },
+    {
+      "destination": "dal.speedtest.clouvider.net",
+      "port": 5203,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 72.58524867701279,
+      "goodput_median_mbps": 109.57380325594622,
+      "goodput_mean_mbps": 110.525616900666,
+      "goodput_p95_mbps": 132.72857542360245,
+      "rtt_median_ms": 55.058,
+      "retransmissions": 2
+    },
+    {
+      "destination": "dal.speedtest.clouvider.net",
+      "port": 5203,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 53.37347091609771,
+      "goodput_median_mbps": 119.23976125572659,
+      "goodput_mean_mbps": 113.42788116112607,
+      "goodput_p95_mbps": 138.75720404680595,
+      "rtt_median_ms": 37.5315,
+      "retransmissions": 10
+    },
+    {
+      "destination": "speedtest.hiper.dk",
+      "port": 5203,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 1.3692513166362645,
+      "goodput_median_mbps": 76.24633013347085,
+      "goodput_mean_mbps": 64.91192297849351,
+      "goodput_p95_mbps": 125.68023010829518,
+      "rtt_median_ms": 127.238,
+      "retransmissions": 2
+    },
+    {
+      "destination": "speedtest.hiper.dk",
+      "port": 5203,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 0.68462231996767,
+      "goodput_median_mbps": 109.32498418893715,
+      "goodput_mean_mbps": 100.08499486558875,
+      "goodput_p95_mbps": 121.70132407924889,
+      "rtt_median_ms": 149.97449999999998,
+      "retransmissions": 3
+    },
+    {
+      "destination": "speedtest.hiper.dk",
+      "port": 5203,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 61,
+      "goodput_min_mbps": 1.0269023198408471,
+      "goodput_median_mbps": 112.38286931186278,
+      "goodput_mean_mbps": 103.37758880459596,
+      "goodput_p95_mbps": 130.23982403471362,
+      "rtt_median_ms": 135.289,
+      "retransmissions": 0
+    },
+    {
+      "destination": "23.249.54.234",
+      "port": 30005,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 63.125601785728904,
+      "goodput_median_mbps": 122.24485747035544,
+      "goodput_mean_mbps": 120.18696391137355,
+      "goodput_p95_mbps": 136.935880902534,
+      "rtt_median_ms": 59.6095,
+      "retransmissions": 0
+    },
+    {
+      "destination": "23.249.54.234",
+      "port": 30005,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 55.06302045028497,
+      "goodput_median_mbps": 117.81438761600262,
+      "goodput_mean_mbps": 115.40390746549782,
+      "goodput_p95_mbps": 136.1783881260671,
+      "rtt_median_ms": 63.4275,
+      "retransmissions": 2
+    },
+    {
+      "destination": "23.249.54.234",
+      "port": 30005,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 24.925180166293256,
+      "goodput_median_mbps": 114.59339564527258,
+      "goodput_mean_mbps": 111.43098007949801,
+      "goodput_p95_mbps": 131.74264744996836,
+      "rtt_median_ms": 51.015,
+      "retransmissions": 0
+    },
+    {
+      "destination": "96.45.44.87",
+      "port": 30005,
+      "algorithm": "cubic",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 0.6942079140783335,
+      "goodput_median_mbps": 10.830498448744066,
+      "goodput_mean_mbps": 20.378837011023805,
+      "goodput_p95_mbps": 65.83754141589564,
+      "rtt_median_ms": 191.2125,
+      "retransmissions": 0
+    },
+    {
+      "destination": "96.45.44.87",
+      "port": 30005,
+      "algorithm": "reno",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 0.6942214518005314,
+      "goodput_median_mbps": 109.7370945929171,
+      "goodput_mean_mbps": 97.86122429152,
+      "goodput_p95_mbps": 114.32679290959875,
+      "rtt_median_ms": 198.176,
+      "retransmissions": 0
+    },
+    {
+      "destination": "96.45.44.87",
+      "port": 30005,
+      "algorithm": "bbr",
+      "runs": 2,
+      "samples": 60,
+      "goodput_min_mbps": 0.6482810225809043,
+      "goodput_median_mbps": 106.12654048086009,
+      "goodput_mean_mbps": 88.589346136313,
+      "goodput_p95_mbps": 112.55147324329901,
+      "rtt_median_ms": 199.207,
+      "retransmissions": 4
+    }
+  ],
+  "plots": {
+    "throughput": [
+      "throughput-1.pdf",
+      "throughput-2.pdf"
+    ],
+    "cubic_time_series": "cubic-time-series.pdf",
+    "cubic_scatter": "cubic-scatter.pdf",
+    "comparison_time_series": "comparison-time-series.pdf",
+    "comparison_scatter": "comparison-scatter.pdf"
+  },
+  "representative": {
+    "host": "204.155.243.172",
+    "port": 30005,
+    "site": "Toronto",
+    "country": "CA"
+  },
+  "rtt_table": [
+    {
+      "destination": "66.35.27.207",
+      "cubic": 52.8445,
+      "reno": 59.5165,
+      "bbr": 43.221000000000004
+    },
+    {
+      "destination": "204.155.243.172",
+      "cubic": 40.9905,
+      "reno": 55.429,
+      "bbr": 32.507000000000005
+    },
+    {
+      "destination": "114.230.93.99",
+      "cubic": 220.1325,
+      "reno": 241.865,
+      "bbr": 216.266
+    },
+    {
+      "destination": "iperf3-vie-at.alwyzon.net",
+      "cubic": 126.10499999999999,
+      "reno": 150.1945,
+      "bbr": 123.594
+    },
+    {
+      "destination": "148.230.45.213",
+      "cubic": 126.76249999999999,
+      "reno": 159.08249999999998,
+      "bbr": 129.305
+    },
+    {
+      "destination": "yyc-speedtest.xplore.ca",
+      "cubic": 61.852,
+      "reno": 79.505,
+      "bbr": 52.923
+    },
+    {
+      "destination": "dal.speedtest.clouvider.net",
+      "cubic": 49.549499999999995,
+      "reno": 55.058,
+      "bbr": 37.5315
+    },
+    {
+      "destination": "speedtest.hiper.dk",
+      "cubic": 127.238,
+      "reno": 149.97449999999998,
+      "bbr": 135.289
+    },
+    {
+      "destination": "23.249.54.234",
+      "cubic": 59.6095,
+      "reno": 63.4275,
+      "bbr": 51.015
+    },
+    {
+      "destination": "96.45.44.87",
+      "cubic": 191.2125,
+      "reno": 198.176,
+      "bbr": 199.207
+    }
+  ]
+}
